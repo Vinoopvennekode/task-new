@@ -46,13 +46,18 @@ body{
     float: left;
 }
 .search{
+    
     width: 50%;
     float: left;
 
 }
 .search ul{
+    display: flex;
     margin-left: 331px;
     
+}
+.icon-o{
+    position:relative ;
 }
 .shop ul{
     margin-left: -55px;
@@ -106,8 +111,14 @@ body{
 
 }
 .link a{ 
+    border-bottom: 1px solid black;
+    text-decoration: none;
     font-family: Graphik,sans-serif;
     color: black;
+}
+.link a:hover{
+    
+    border-bottom: none
 }
 .packaging-bar{
     
@@ -382,8 +393,13 @@ footer{
 
 }
 .readmore{
+    border-bottom: 1px solid black;
     text-decoration: none;
     color: black;
+}
+.readmore:hover{
+    border-bottom:none
+
 }
 .last-footer{
     width: 100%;
