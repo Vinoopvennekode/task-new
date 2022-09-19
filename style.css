@@ -1,0 +1,483 @@
+@font-face{
+    src: url(fonts/GraphikMedium.otf);
+    font-family: Graphik,sans-serif;
+}
+*{
+    font-family: Graphik,sans-serif;
+}
+.header{
+    
+    width: 98%;
+    height: 60px;
+    position: fixed;
+    margin-left: 1%;
+    opacity: 25;
+    border: 1px solid #eaeaea;
+    background: rgba(255,255,255,.95);
+    
+
+}
+.container{
+    width:100%;
+    height: 100vh;
+    background-image: url(images/Frame_589_1080x.png);
+    background-size:983px 625px;
+    background-repeat: no-repeat;
+    padding-top: 1%;
+   
+}
+.logo-text{
+   color: rgb(0, 0, 0);
+    font-size: 24.4px;
+    margin-left: 28px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+body{
+ margin: 0;
+}
+.logo{
+    width: 10%;
+    float: left;
+}
+
+.shop{
+    width: 40%;
+    float: left;
+}
+.search{
+    width: 50%;
+    float: left;
+
+}
+.search ul{
+    margin-left: 331px;
+    
+}
+.shop ul{
+    margin-left: -55px;
+    margin-top: 21px;
+}
+.shop ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left:32px;
+}
+.search ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 58px;
+    margin-top: 5px;
+}
+.shop ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}.search ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    width: 32px;
+    margin-left: -20px;
+}
+.content{
+    margin-top: 218px;
+    margin-left: 1017px;
+}
+.content h3{
+    font-family: Graphik,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.content h2{
+    font-family: Graphik,sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+
+}
+.content p{
+    font-family: Graphik,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+
+
+}
+.link a{ 
+    font-family: Graphik,sans-serif;
+    color: black;
+}
+.packaging-bar{
+    
+    width: 1285px;
+    height: 255px;
+    margin-top: 50px;
+    margin-left: 36px;
+}
+.div1{
+    background-image: url(images/section\ 2.jpg);
+    background-size: 184.83px 255px;
+    background-repeat: no-repeat;
+    width: 401.66px;
+    height: 255px;
+    float: left;
+   
+
+}
+.div2{
+    background-image: url(images/section\ 2.jpg);
+    background-size: 184.83px 255px;
+    background-repeat: no-repeat;
+    width: 401.66px;
+    height: 255px;
+    float: left;
+    margin-left:36px;
+
+
+}
+.div3{
+    background-image: url(images/section\ 3.jpg);
+    background-size: 184.83px 255px;
+    background-repeat: no-repeat;
+    width: 401.66px;
+    height: 255px;
+   
+    float: left;
+    margin-left:36px;
+}
+.how{
+    margin-top: 85px;
+    margin-left: 200px;
+}
+.how h2{
+    font-size: 15px;
+    
+}
+.how p{
+    font-size: 14px;
+    
+}
+.how a{
+    font-size: 12px;
+   
+
+}
+.who{
+    margin-top: 85px;
+    margin-left: 200px;
+}.who h2{
+    font-size: 15px;
+    
+}
+.who p{
+    font-size: 14px;
+   
+}
+.who a{
+    font-size: 12px;
+    
+
+}
+.modular{
+    margin-top: 85px;
+    margin-left: 200px;
+}.modular h2{
+    font-size: 15px;
+    
+}
+.modular p{
+    font-size: 14px;
+    
+}
+.modular a{
+    font-size: 12px;
+    
+
+}
+.heading {
+    margin-left: 36px;
+    padding-top: 45px;
+}
+.heading p{
+    font-size: 28px;
+    
+}
+.featurs{
+    width: 1285px;
+    height:520px;
+    margin-top: 35px;
+    margin-left: 36px;
+}
+.shoe1{
+    background-image: url(https://cdn.shopify.com/s/files/1/0505/9044/9849/products/ETQ_Model_035Angel3_1920x.jpg?v=1644521461);
+    background-size: 401.66px 455.88px;
+    background-repeat: no-repeat;
+    width: 401.66px;
+    height: 520px;
+    float: left;
+
+}
+.shoe2{
+    background-image: url(https://cdn.shopify.com/s/files/1/0505/9044/9849/products/ETQ_220316_MODEL015Angel3_DEF_1920x.jpg?v=1649434039);
+    background-size: 401.66px 455.88px;
+    background-repeat: no-repeat;
+    width: 401.66px;
+    height: 520px;
+    float: left;
+    margin-left: 30px;
+}
+.shoe3{
+    background-image: url(https://cdn.shopify.com/s/files/1/0505/9044/9849/products/ETQ_220316_MODEL03Angel3_640x.jpg?v=1656921240);
+    background-size: 401.66px 455.88px;
+    background-repeat: no-repeat;
+    width: 401.66px;
+    height: 520px;
+    float: left;
+    margin-left: 30px;
+}
+.text-shoe1{
+    font-size: 14px;
+    margin-top: 470px;
+}
+.text-shoe2{
+    font-size: 14px;
+    margin-top: 470px;
+}
+.text-shoe3{
+    font-size: 14px;
+    margin-top: 470px;
+}
+
+.stores{
+    width:1273px;
+    height: 512.47px;
+    margin-left: 36px;
+    margin-top: 50px;
+}
+.store1{
+    background-image: url(https://cdn.shopify.com/s/files/1/0505/9044/9849/files/Laundry_Store_Homepage-image_750x.jpg?v=1631259918);
+    background-size: 618.5px 446.69px;
+    background-repeat: no-repeat;
+    width: 618.5px;
+    height: 512.47px;
+
+    float: left;
+
+}
+.store1-text h3{
+    margin-top: 468px;
+    font-size: small;
+
+}
+.store1-text p{
+    margin-top: -4px;
+    font-size: 14px;
+}
+.store2{
+    background-image: url(https://cdn.shopify.com/s/files/1/0505/9044/9849/files/ETQ-Store-New-Wall_0ebac655-98b3-41ef-9df9-5a1ec474b90a_750x.jpg?v=1621592281);
+    background-size: 618.5px 446.69px;
+    background-repeat: no-repeat;
+    width: 618.5px;
+    height: 512.47px;
+    
+    float: left;
+    margin-left: 27.5px;
+}
+.store2-text h3{
+    margin-top: 468px;
+    font-size: small;
+
+}
+.store2-text p{
+    margin-top: -4px;
+    font-size: 14px;
+}
+footer{
+    padding: 100px  36px 25px 36px;
+    
+}
+.row{
+    width: 1277px;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;   
+}
+.about{
+    flex-basis: 30%;
+    padding: 10px;
+}
+.about p{
+    font-size: 14px;
+}
+.about h3{
+    font-size: 13px;
+}
+.Address{
+    margin-left: 20px;
+    flex-basis: 15%;
+    padding: 10px;
+}
+.Address h3{
+    font-size:  13px;;
+}
+.Address p{
+    font-size:14px;;
+}
+.contact{
+    flex-basis: 15%;
+    padding: 10px;
+}
+.contact h3{
+    font-size:13px;;
+}
+.contact a{
+    font-size:14px;;
+}
+.info{
+    flex-basis: 15%;
+    padding: 10px;
+}
+.info h3{
+    font-size:13px;;
+}
+.info a{
+    font-size:14px;;
+}
+.follow{
+    flex-basis: 15%;
+    padding: 10px;
+}
+.follow h3{
+    font-size:  13px;;
+}
+.follow a{
+    font-size:14px;;
+}
+.contact ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+.contact ul li a{
+    text-decoration: none;
+    color: black;
+}
+.info ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+.info ul li a{
+    text-decoration: none;
+    color: black;
+}
+.follow ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+.follow ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+.readmore{
+    text-decoration: none;
+    color: black;
+}
+.last-footer{
+    width: 100%;
+    height: 100px;
+   
+    
+}
+.payment{
+    width: 50%;
+    height: 80px;
+  
+    float: right;
+}
+.form-bar{
+    width: 50%;
+    height: 100px;
+    border: 1px solid white ; 
+}
+.join{
+    width: 12%;
+    height: 50px;
+   
+    float: left;
+}
+.join p{
+    font-size: 13px;
+    margin-top: 16px;
+}
+.form{
+    width: 53%;
+    height: 50px;
+     
+    float: left;
+    
+}
+form{
+    padding: 15px 20px 0 20px;
+    width: 236px;
+    
+    
+    
+}
+input{
+    border-right: none;
+    border-bottom: 1px solid #5a575754;
+    border-top: inherit;
+    border-left: none;
+    width: 302px;
+}
+.submit{
+    width: 30%;
+    height: 50px;
+   
+    float: left;
+    
+}
+.submit1{
+    
+    margin-left: 17px;
+    color: black;
+    text-decoration: none;
+    margin-top: 21px;
+    position: absolute;
+}
+.text-bottom-join p{
+    font-size: 11px;
+    color: gray;
+    margin-top: 75px;
+}
+.text-bottom-join a{
+    color: gray;
+}
+.payment1{
+    width: 50%;
+    height: 50px;
+    background-image: url(images/payment.PNG);
+    background-repeat: no-repeat;
+    float: left;
+}
+.terms{
+    margin-left:150px; 
+    font-size: 11px;
+    float: left;
+    
+}
+.terms a{
+    color: gray;
+    text-decoration: none;
+}
+select{
+    font: 16px;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background-color: #f4f4f4;
+}
+
